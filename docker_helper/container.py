@@ -3,7 +3,7 @@ import sys
 import logging
 import time
 from abc import ABC, abstractmethod
-from base import DockerHelperBase
+from .base import DockerHelperBase
 
 
 class DockerHelperContainer(DockerHelperBase):
