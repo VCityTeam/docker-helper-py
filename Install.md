@@ -4,7 +4,11 @@ python3 -m pip install git+https://github.com/VCityTeam/docker-helper-py.git
 ```
 and uninstalling goes
 ```
-python3 -m pip uninstall docker_helper
+python3 -m pip uninstall -y docker_helper        # No confirmation asked
+```
+Testing the installation
+```
+ python -c "import docker_helper"
 ```
 
 ## Creating the development context
