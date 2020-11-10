@@ -3,7 +3,7 @@ import sys
 import docker
 import logging
 import time
-import .container
+from .container import DockerHelperContainer
 
 
 class DockerHelperService(DockerHelperContainer):

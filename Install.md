@@ -1,3 +1,12 @@
+## Install
+```
+python3 -m pip install git+https://github.com/VCityTeam/docker-helper-py.git
+```
+and uninstalling goes
+```
+python3 -m pip uninstall docker_helper
+```
+
 ## Creating the development context
 Create a python virtual environment and activate it
 ```
