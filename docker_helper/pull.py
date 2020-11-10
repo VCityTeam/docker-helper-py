@@ -2,7 +2,7 @@ import os
 import sys
 import docker
 import logging
-import .base
+from base import DockerHelperBase
 
 
 class DockerHelperPull(DockerHelperBase):

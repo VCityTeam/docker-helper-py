@@ -1,5 +1,5 @@
 import time
-import .container
+from container import DockerHelperContainer
 
 
 class DockerHelperTask(DockerHelperContainer):
